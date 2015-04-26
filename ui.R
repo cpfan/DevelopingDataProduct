@@ -24,7 +24,7 @@ shinyUI(fluidPage(
 
     # Show a plot of the generated distribution
     mainPanel(
-            p('Using the data from the mtcars dataset, this application will attempt to predict the number of cylinders your car has'),
+            p('Using the data from the mtcars dataset, this application will attempt to predict the number of cylinders your car has.'),
             p('Use the slider to indicate the MPG of your ride!'),
             h3('Results of prediction'),
             h4('Your ride MPG is'), 
